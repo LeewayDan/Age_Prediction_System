@@ -1,0 +1,84 @@
+[33mcommit 37cb64cc3f7cda4efd4cb57d1f826105ece83eb7[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m
+Author: LeewayDan <1418446203@qq.com>
+Date:   Tue Mar 3 23:59:31 2026 +0800
+
+    Remove checkpoints pt files from git tracking and add to .gitignore
+
+checkpoints/Age_ckpt.pt
+checkpoints/CVD_ckpt.pt
+checkpoints/T2D_ckpt.pt
+
+[33mcommit ea475c569572864b43481ae97f82df0cb6754746[m
+Author: LeewayDan <1418446203@qq.com>
+Date:   Tue Mar 3 23:54:42 2026 +0800
+
+    Initial commit
+
+.gitignore
+MAPLE_inference.py
+README.md
+SetupEnvironment.sh
+__pycache__/bioage_pipeline.cpython-311.pyc
+__pycache__/config.cpython-311.pyc
+bioage_pipeline.py
+checkpoints/Age_ckpt.pt
+checkpoints/CVD_ckpt.pt
+checkpoints/README.md
+checkpoints/T2D_ckpt.pt
+config.json
+config.py
+data/cpgs_age.npy
+data/cpgs_blood_CVD.npy
+data/cpgs_blood_T2D.npy
+data/cvd_risk_scores.h5ad
+data/t2d_risk_scores.h5ad
+data_process/850k_GMQN.R
+data_process/Age_DataPrepare.py
+data_process/CVD_DataPrepare.py
+data_process/GEO_process_450k.py
+data_process/GEO_process_850k.py
+data_process/README.md
+data_process/T2D_DataPrepare.py
+data_process/blood_test_data.py
+data_process/diabetes.R
+data_process/diabetes.py
+data_process/dict_850k_ctrl.py
+data_process/ewas_process_450k.py
+data_process/heart_disease.R
+data_process/heart_disease.py
+data_process/merge_ewas_datahub.py
+data_process/rawdata_process.R
+data_process/stroke.R
+data_process/stroke.py
+examples/MAPLE_output.csv
+examples/RAW/GSM6425155_Grn.idat
+examples/RAW/GSM6425155_Red.idat
+examples/RAW/GSM6425157_Grn.idat
+examples/RAW/GSM6425157_Red.idat
+examples/RAW/GSM6425173_Grn.idat
+examples/RAW/GSM6425173_Red.idat
+examples/RAW/GSM6425633_Grn.idat
+examples/RAW/GSM6425633_Red.idat
+examples/RAW/GSM6425989_Grn.idat
+examples/RAW/GSM6425989_Red.idat
+examples/RAW/GSM6426061_Grn.idat
+examples/RAW/GSM6426061_Red.idat
+examples/input_data/Beta_values.csv
+examples/test_meta.csv
+models/CT.py
+models/FC.py
+models/__pycache__/CT.cpython-311.pyc
+models/__pycache__/FC.cpython-311.pyc
+raw_process/idat_process.R
+raw_process/install_pkgs.R
+raw_process/verify_version.R
+requirements.txt
+utils/__pycache__/dataload_utils.cpython-311.pyc
+utils/__pycache__/dataprocess_utils.cpython-311.pyc
+utils/__pycache__/file_utils.cpython-311.pyc
+utils/common_utils.py
+utils/dataload_utils.py
+utils/dataprocess_utils.py
+utils/evaluate_helper.py
+utils/file_utils.py
+utils/model_helper.py
